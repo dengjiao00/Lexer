@@ -1,0 +1,12 @@
+if  i>=15 then  x := y;
+if  i>=15 then  x := y;
+if  i>=15 then  x := y;
+if  i>=15 then  x := y;
+if  i>=15 then  x := y;
+if  i>=15 then  x := y;
+else if(identify(tt.charAt(i)+"")==4) {
+                            String temp=list.get(list.size()-1);
+                            if(identify(temp.charAt(temp.length()-1)+"")==4)
+                                list.set(list.size()-1, list.get(list.size()-1)+tt.charAt(i));
+                            else
+                                list.add(tt.charAt(i)+"");
